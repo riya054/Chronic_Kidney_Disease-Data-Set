@@ -17,3 +17,13 @@ y_pred=regr.predict(X_test)
 from sklearn.metrics import r2_score
 Accuracy=r2_score(y_test,y_pred)*100
 print(Accuracy)
+
+
+#Testing sample input
+predicted = regr.predict([[53,90,1.020,2,0,1,1,1,0,70,107,7.2,114,3.7,9.5,29,12100,3.7,1,1,0,0,0,1]])
+print(predicted)
+ans = np.round_(predicted,decimals = 0, out = None)
+if (ans==1):
+  print("ckd")
+else:
+  print("notckd")
