@@ -14,3 +14,8 @@ The domain of the dataset is medical or health informatics. It is a collection o
 * SVM
 * Naive Bayes
 * Artificial neural network
+
+
+#### Naive bayes proved to have highest accuracy and good confusion matrix 
+#### Therefore it was choosen to create a model with data that has less dimension 
+#### The selection of attributes was from analysising the correlation matrix
