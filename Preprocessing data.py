@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 import seaborn as sns
 
-df = pd.read_csv("/content/drive/MyDrive/Microproject/Chronic-Kidney-Disease-master/dataset/kidney_disease.csv")
+df = pd.read_csv("/content/drive/.........../Chronic-Kidney-Disease-master/dataset/kidney_disease.csv")
 # print(df.columns)
 
 # mapping yes/no & abnormal/normal & present/absent & good/poor & notckd/ckd --> 1/0
